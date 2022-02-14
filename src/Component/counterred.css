@@ -1,0 +1,103 @@
+.container {
+  min-height: 100vh;
+}
+.design4 {
+  display: flex;
+  align-items: center;
+  margin-top: 200px;
+  margin-left: 500px;
+}
+.btn3 {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: maroon;
+  color: silver;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+  margin-right: 20px;
+}
+.btn4 {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: maroon;
+  color: silver;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+
+.btn3:hover {
+  background-color: silver;
+  color: maroon;
+}
+.btn4:hover {
+  background-color: silver;
+  color: maroon;
+}
+
+.textdes4 {
+  margin-left: 650px;
+  font-size: 60px;
+  color: silver;
+}
+.textdes5 {
+  margin-left: 420px;
+  font-size: 60px;
+  color: black;
+}
+
+@media (max-width: 414px) {
+  .design4 {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 70px;
+  }
+  .textdes4 {
+    margin-left: 185px;
+    font-size: 40px;
+  }
+  .textdes5 {
+    margin-left: 70px;
+    font-size: 30px;
+    color: black;
+  }
+  .btn3 {
+    padding: 15px;
+    font-size: 16px;
+  }
+  .btn4 {
+    padding: 15px;
+    font-size: 16px;
+  }
+}
+@media (min-width: 415px) and (max-width: 737px) {
+  .design4 {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 200px;
+  }
+  .textdes4 {
+    margin-left: 345px;
+    font-size: 60px;
+  }
+  .textdes5 {
+    margin-left: 100px;
+    font-size: 60px;
+    color: black;
+  }
+  .btn3 {
+    padding: 20px;
+    font-size: 20px;
+  }
+  .btn4 {
+    padding: 20px;
+    font-size: 20px;
+  }
+}

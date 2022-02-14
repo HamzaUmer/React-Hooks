@@ -1,0 +1,103 @@
+.container {
+  min-height: 100vh;
+}
+.design1 {
+  display: flex;
+  align-items: center;
+  margin-top: 200px;
+  margin-left: 500px;
+}
+.btn1 {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: navy;
+  color: gold;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+  margin-right: 20px;
+}
+.btn2 {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: navy;
+  color: gold;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+
+.btn1:hover {
+  background-color: gold;
+  color: navy;
+}
+.btn2:hover {
+  background-color: gold;
+  color: navy;
+}
+
+.textdes {
+  margin-left: 650px;
+  font-size: 60px;
+  color: goldenrod;
+}
+.textdes1 {
+  margin-left: 420px;
+  font-size: 60px;
+  color: black;
+}
+
+@media (max-width: 414px) {
+  .design1 {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 70px;
+  }
+  .textdes {
+    margin-left: 185px;
+    font-size: 40px;
+  }
+  .textdes1 {
+    margin-left: 80px;
+    font-size: 30px;
+    color: black;
+  }
+  .btn1 {
+    padding: 15px;
+    font-size: 16px;
+  }
+  .btn2 {
+    padding: 15px;
+    font-size: 16px;
+  }
+}
+@media (min-width: 415px) and (max-width: 737px) {
+  .design1 {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 200px;
+  }
+  .textdes {
+    margin-left: 345px;
+    font-size: 60px;
+  }
+  .textdes1 {
+    margin-left: 140px;
+    font-size: 60px;
+    color: black;
+  }
+  .btn1 {
+    padding: 20px;
+    font-size: 20px;
+  }
+  .btn2 {
+    padding: 20px;
+    font-size: 20px;
+  }
+}
