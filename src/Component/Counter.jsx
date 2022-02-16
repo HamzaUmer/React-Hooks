@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import "./counter.css"
-//UseState Example
+//Useeffect Example
 const Counter = () => {
   const [numinc,setNumInc] = useState(0);
   useEffect(()=> {
